@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <!-- تنظیمات متا برای بهینه‌سازی و PWA -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#317EFB"/>
+    <title>اپلیکیشن حرفه‌ای ۲۰۲۵</title>
+
+    <!-- فوت‌پرینت و علامت تجاری -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    <link rel="icon" href="assets/icons/favicon.ico">
+
+    <!-- استایل‌های اصلی -->
+    <link href="vendors/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="vendors/animate.css/animate.min.css" rel="stylesheet">
+    <link href="vendors/aos/aos.css" rel="stylesheet">
+    
+    <!-- استایل‌های اختصاصی -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/bento-grid.css" rel="stylesheet">
+</head>
+<body>
+    <!-- نوار ناوبری -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bento-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="لوگو" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="pages/home.html">خانه</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/features.html">ویژگی‌ها</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/services.html">خدمات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/about.html">درباره ما</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contact.html">تماس</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- محتوای اصلی با بنتو گرید -->
+    <main class="container-fluid bento-container">
+        <div class="bento-grid">
+            <!-- جعبه‌های بنتو گرید با انیمیشن -->
+            <div class="bento-box" data-aos="fade-up">
+                <h2>خوش آمدید</h2>
+                <p>اپلیکیشن حرفه‌ای شما با طراحی مدرن ۲۰۲۵</p>
+            </div>
+            <!-- سایر جعبه‌های بنتو گرید اینجا اضافه شود -->
+        </div>
+    </main>
+
+    <!-- فوتر -->
+    <footer class="container-fluid bento-footer">
+        <div class="row">
+            <div class="col text-center">
+                <p>&copy; ۲۰۲۵ اپلیکیشن حرفه‌ای. تمام حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- اسکریپت‌های اصلی -->
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendors/aos/aos.js"></script>
+    
+    <!-- اسکریپت‌های اختصاصی -->
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/pwa-handler.js"></script>
+</body>
+  </html>
